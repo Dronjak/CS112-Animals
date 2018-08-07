@@ -14,7 +14,7 @@ public abstract class Animal {
         this.ID++;
     }
 
-    abstract void attact(Animal defending);
+    //abstract void attact(Animal defending){};
 
     public void setDead(boolean dead) {
         isDead = dead;

@@ -1,6 +1,6 @@
 package com.company;
 
-public class Mammals extends  Animal {
+public class Mammals extends  Animal implements CanFly {
 
     public Mammals(String name, double weight) {
         super(name, weight);
@@ -20,4 +20,14 @@ public class Mammals extends  Animal {
     public int getID() {
         return super.getID();
     }
+
+    public void CanFly(){
+
+    }
+
+
+
+
+
+
 }
